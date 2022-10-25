@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto / LJL-Biotechnology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/biotecnologia.png" type="image/x-icon">
+    <link rel="script" href="script.js">
+</head>
+<body>
+    <header>
+        <h1 id="titulo-principal">
+            LJL - Biotechnology
+        </h1>
+        <p id="parrafo-logo"><a href="index.html"><img src="./img/biotecnologia.png" alt="icono" width="80px"></a></p>
+        <nav>
+            <a href="sobre-nosotros.html">Sobre nosotros</a>
+            <a href="productos.html">Productos</a>
+            <a href="trabaja-con-nosotros.html">Trabajá con nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+    <h2>Formulario de contacto</h2>
+    <form class="registro" action="enviado.html" target="_blank">
+        <fieldset>
+            
+            <b><legend>Datos personales</legend></b>
+            <br>
+            <label for="firstname">Nombre: </label>
+            <input id="nombre" size="30" type="text" name="firstname" placeholder="Ingrese su nombre aqui..." required autocomplete="off">
+            &nbsp;
+            <label for="lastname">Apellido:</label>
+            <input id="apellido" size="30" type="text" name="lastname" placeholder="Ingrese su apellido aqui..." required autocomplete="off">
+            <br><br>
+            <label for="street">Dirección:</label>
+            <input id="direccion" type="text" name="address" placeholder="Ingrese su dirección aqui..." required autocomplete="off">
+            &nbsp;
+            <label for="city">Ciudad: </label>
+            <input id="ciudad" type="text" name="city" value="C.A.B.A.">
+            <br><br>
+            <label for="zipcode">Código Postal:</label>
+            <input id="codigo_postal" type="text" name="zipcode" placeholder="Ingrese su codigo postal aqui..." required autocomplete="off">
+            &nbsp;
+            <label for="telefono">Telefono: </label>
+            <input id="telefono" type="tel" name="telefono" placeholder="Ingrese su telefono aqui ...." required autocomplete="off">
+            <br><br>
+            <label for="BirthDate">Fecha Nac.(mm/dd/yyyy): </label>
+            <input id="fecha-de-nacimiento" type="date" name="birthdate">
+            <br>
+            <p id="parrafo-genero"> Género:
+                <input type="radio" name="gender" value="hombre" checked="" required autocomplete="off">Hombre
+                <input type="radio" name="gender" value="mujer" required autocomplete="off">Mujer
+        </fieldset>  
+            </p>
+        <fieldset>
+            
+            <b><legend>Informacion Adicional</legend></b>
+            <br>
+            <label for="idiomas">Idiomas:</label>
+            <input type="checkbox" name="conocimientos" value="español">Español
+            <input type="checkbox" name="conocimientos" value="portugues">Portugues
+            <input type="checkbox" name="conocimientos" value="ingles">Ingles
+            <input type="checkbox" name="conocimientos" value="aleman">Aleman
+            <input type="checkbox" name="conocimientos" value="otros">Otros
+        </p>
+        <label for="estudios">Estudios:</label>
+        <select id="estudios" name="estudios">
+            <option value="primaria">Primaria</option>
+            <option value="secundaria">Secundaria</option>
+            <option value="terciario">Terciario</option>
+            <option value="universitario">Universitario</option>
+        </select>
+        <br><br>
+        <label for="comentarios">Comentarios:</label>
+        <textarea name="comentarios" rows="5" cols="30" style="resize:none;"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <button type="reset">Restablecer</button>
+        </fieldset>
+    </form>
+    </main>
+    <br>
+    <footer>
+        <div class="redes-sociales">
+            <a class="redes-sociales" href="https://wa.me/+5492244460039" target="_blank"><img src="./img/logo-whatsapp.png" alt="logo-whatsapp" width="32px" height="32px"></a>
+            <a class="redes-sociales" href="https://instagram.com" target="_blank"><img src="./img/logo-instagram.png" alt="logo-instagram" width="32px" height="32px"></a>
+            <a class="redes-sociales" href="https://facebook.com" target="_blank"><img src="./img/logo-facebook.png" alt="logo-facebook" width="32px" height="32px"></a>
+        </div>
+        <br>
+        <p id="derechos">© Todos los derechos quedan reservados. LJL - Biotechnology</p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>

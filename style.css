@@ -1,0 +1,211 @@
+*{
+    font-family: 'Courier New', Courier, monospace;;
+}
+*a{
+    text-decoration:none;
+    padding: 10px;
+}
+
+p{
+    color: #ffff;
+    font-style: bold;
+    font-weight: 20px;
+}
+
+h1{
+    font-size:50px;
+    text-align: center;
+    color: #ffff;
+}
+
+h2{
+    color: #36D28F;
+}
+
+header{
+    background-color: #1B1C1E;
+    text-align: center;
+}
+
+body{
+    background-color: #1B1C1E;
+}
+
+#titulo-principal{
+    text-align: center;
+}
+
+#image-container-1{
+    background-image: url(./img/img-nosotros.jpeg);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+#image-container-2{
+    background-image: url(./img/img-mision.jpeg);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+#image-container-3{
+    background-image: url(./img/img-vision.jpeg);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.NosotrosH2P{
+    text-align: right;
+    margin-right: 40px;
+}
+
+.MisionH2P{
+    text-align: right;
+    margin-right: 40px;
+}
+
+.VisionH2P{
+    text-align: right;
+    margin-right: 40px;
+}
+
+#image-container-1, #image-container-2, #image-container-3 h2{
+    font: 30px;
+}
+
+li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: #ffff;
+}
+
+.lista-valores{
+    text-align: center;
+    font-weight:bold;
+}
+
+#Valores{
+    margin-left: 40px;
+}
+
+.redes-sociales{
+    text-align: center;
+    margin: 10px;
+    padding: auto;
+}
+
+#derechos{
+    text-align: center;
+    color: #ffff;
+}
+
+.tarjeta{
+    margin-bottom: 20px;
+    width: 30%;
+    border: 1px solid #ffff;;
+    border-radius: 5 ;
+    padding: 1px   
+}
+
+.tarjeta img{
+    width: 100%;
+    opacity: 60%;
+}
+
+.tarjeta img:hover{
+    filter:saturate(200%);
+    filter:contrast(150%);
+    opacity: 100%;
+    transition-property: 1s;
+    transition-duration: 2s;
+}
+
+.tarjeta h2, .tarjeta p  {
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+
+.registro{
+    background-color: #C9F3FF;
+    text-align: left;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header a{
+    background-color:#1B1C1E;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: #5AAFCE;
+}
+
+header a:hover{
+    color: #36D28F;
+}
+
+header nav{
+    text-align: center;
+}
+
+.boton-mas-info{
+    color: #ffff;
+    background-color: RGBA(90, 175, 206, 0.5);
+    border-radius: 5px;
+}
+
+.boton-mas-info:hover{
+    color:#36D28F
+}
+
+#p-empresa{
+    background-color: RGBA(90, 175, 206, 0.5);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#p-empresa h1{
+    color: #1B1C1E;
+}
+
+#vid-empresa{
+    text-align: center;
+}
+
+form label, legend, #parrafo-genero{
+    color: #000000;
+    display: inline-block;
+}
+
+form{
+    font-size: 20px;
+}
